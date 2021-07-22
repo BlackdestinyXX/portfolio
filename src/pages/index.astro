@@ -1,0 +1,36 @@
+---
+import Navbar from "../components/Navbar"
+import Intestation from "../components/Intestation"
+import FrontImage from "../components/FrontImage"
+import '../styles/index.css'
+import Background from "../../public/wallpaper.jpg"
+---
+
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" href="/favicon.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bl4ckdestinyXX - Portfolio</title>
+</head>
+<body>
+<Navbar />
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <Intestation />
+            </div>
+            <div class="col">
+                <FrontImage />
+            </div>
+        </div>
+    </div>
+    <style>
+        body {
+            background-image: url("/wallpaper.jpg");
+            background-repeat: none;
+        }
+    </style>
+</body>
+</html>

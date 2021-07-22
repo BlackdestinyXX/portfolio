@@ -1,0 +1,36 @@
+---
+import Navbar from "../components/Navbar"
+import '../styles/index.css'
+import Background from "../../public/wallpaper.jpg"
+import Projects from '../components/Projects'
+import Rocket from "../components/Rocket"
+---
+
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" href="/favicon.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bl4ckdestinyXX - Portfolio</title>
+</head>
+<body>
+<Navbar />
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <Projects />
+            </div>
+            <div class="col">
+                <Rocket />
+            </div>
+        </div>
+    </div>
+    <style>
+        body {
+            background-image: url("/wallpaper.jpg");
+            background-repeat: none;
+        }
+    </style>
+</body>
+</html>
